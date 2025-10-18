@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(images\ \(1\).jpeg);
+    color: white;
+}
+.article-head{
+    height: 9vh;
+    width: 100%;
+    background-color: black;
+    padding-top: 10px;
+    text-align: center;
+}
+.article-head-txt{
+    font-size: 45px;
+    color: white;
+    font-family: sans-serif;
+}
+.article-return{
+    height: 30px;
+    position: absolute;
+    left: 35px;
+    margin-top: 10px;
+}
+.arts1,.arts2,.arts3,.arts4,.arts5,.arts6{
+    height: 30vh;
+    width: 25%;
+    box-shadow: 0 16px 32px 0 rgba(255, 255, 255, 0.4), 0 24px 80px 0 rgba(255, 255, 255, 0.38);
+    margin-top: 50px;
+}
+.arts1{
+    background-image: url(dollars.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.arts2{
+    background-image: url(samsung-img.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.arts3{
+    background-image: url(job.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.arts4{
+    background-image: url(genius-bulb.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.arts5{
+    background-image: url(confidence.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.arts6{
+    background-image: url(success.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.arts1-title,.arts2-title,.arts3-title,.arts4-title,.arts5-title,.arts6-title{
+    height: 10vh;
+    padding-top: 10px;
+    width: 100%;
+    background-color: rgb(2, 41, 2);
+    font-size: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 20vh;
+    cursor: pointer;
+}
+.articles1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.articles2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.art-box-rich{
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkgreen;
+    display: none;
+    position: relative;
+    left: 5px;
+    margin-top: 7px;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding-bottom: 2%;
+}
+.articles1,.articles2{
+    display: flex;
+    justify-content: space-around;
+}
+.cancel-art-box-rich{
+    font-size: 50px;
+    text-align: center;
+    height: 9vh;
+    background-color: black;
+    width: 100%;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.rich-art-fact-head{
+    text-align: center;
+}
+.rich-art-fact{
+    text-align: center;
+}
+@media only screen and (max-width:950px){
+    .articles1{
+        display: block;
+    }
+    .articles2{
+        display: block;
+    }
+    .arts1,.arts2,.arts3,.arts4,.arts5,.arts6{
+        width: 75%;
+        margin-left: 60px;
+    }
+    .arts1-title,.arts2-title,.arts3-title,.arts4-title,.arts5-title,.arts6-title{
+        height: 30%;
+        width: 100%;
+        background-color: rgb(2, 41, 2);
+        margin-top: 20%;
+        margin-bottom: 20px;
+    }
+    .article-head-txt{
+        margin-left: 20px;
+    }
+    .article-return{
+        margin-left: -13px;
+    }
+}
+

@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images\ \(1\).jpeg);
+}
+.navbar{
+    height: 9vh;
+    width: 100%;
+    background-color: black;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 25px;
+}
+li{
+    margin-top: 15px;
+    color: white;
+}
+button{
+    padding: 15px;
+    margin-top: -10px;
+    font-size: 25px;
+    color: white;
+    background: linear-gradient(darkgreen,darkgreen,darkgreen,darkgreen,darkgreen,white);
+    border: 0px;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background: white;
+    color: black;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+button:active{
+    background-color: grey;
+    transition: 0.01s;
+}
+.head-text{
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.intro-text{
+    color: white;
+    font-size: 70px;
+    text-align: center; 
+    font-family: sans-serif;
+    margin-top: 100px;
+}
+.my-pic{
+    height: 240px;
+    width: 230px;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+.about-intro{
+    color: white;
+    font-size: 37px;
+    font-family: sans-serif;
+    height: 370px;
+    width: 330px;
+    border-radius: 20px;
+    border: 2px solid white;
+    text-align: center;
+    background-color: black;
+}
+.intro-body{
+    margin-top: -310px;
+    position: absolute;
+    right: 120px;
+}
+.categories{
+    height: 430px;
+    width: 350px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: black;
+    margin-top: -125px;
+    margin-left: 30px;
+}
+.first-cat-btn{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.second-cat-btn{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.third-cat-btn{ 
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.cat-body{
+    margin-top: 25px;
+}
+.animation{ 
+    margin-left: 70px;
+    margin-top: 40px;
+}
+@media only screen and (max-width: 1200px) {
+    .intro-body{
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px; 
+        position: absolute;
+        left: 100px;
+    }
+    .categories{
+        margin-top: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;    
+    }
+    .third-cat-btn{
+        margin-left: 10px;
+    }
+}
